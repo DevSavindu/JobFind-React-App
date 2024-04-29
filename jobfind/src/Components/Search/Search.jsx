@@ -34,8 +34,30 @@ const Search = () => {
           <label htmlFor="relevance" className='text-[#808080] font-semibold'>Sort by:</label>
             <select name="" id="relevance" className='bg-white rounded-[3px] px-4 py-1'>
               <option value="">Relevance</option>
+              <option value="">Inclusive</option>
+              <option value="">Start With</option>
+              <option value="">Contains</option>
             </select>
         </div>
+        <div className='singleSearch flex items-center gap-2'>
+          <label htmlFor="type" className='text-[#808080] font-semibold'>Type:</label>
+            <select name="" id="type" className='bg-white rounded-[3px] px-4 py-1'>
+              <option value="">Full-Time</option>
+              <option value="">Part-Time</option>
+              <option value="">Remort</option>
+              <option value="">Contract</option>
+            </select>
+        </div>
+        <div className='singleSearch flex items-center gap-2'>
+          <label htmlFor="level" className='text-[#808080] font-semibold'>Level:</label>
+            <select name="" id="level" className='bg-white rounded-[3px] px-4 py-1'>
+              <option value="">Senior</option>
+              <option value="">Beginner</option>
+              <option value="">Intermediate</option>
+              <option value="">Advocate</option>
+            </select>
+        </div>
+        <span className='text-[#a1a1a1] cursor-pointer'>Clear All</span>
       </div>
       
     </div>
