@@ -47,6 +47,11 @@ const Value = () => {
           </div>
         ))}
       </div>
+      <div className='card mt-[2rem] flex justify-between bg-blueColor p-[5rem] rounded-[10px]'>
+          <div>
+            <h1 className='text-blueColor text-[30px]'></h1>
+          </div>
+      </div>
     </div>
   );
 };
