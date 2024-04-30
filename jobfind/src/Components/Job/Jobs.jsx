@@ -104,7 +104,7 @@ const Jobs = () => {
               <img src={image} alt="" className='w-[15%]' />
               <span className='text-[14px] py-[1rem] block group-hover:text-white'>{company}</span>
             </div>
-            <button className='border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-textColor'>Apply Now</button>
+            <button className='border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-[#77B0AA] hover:bg-white group-hover/item:text-[#77B0AA] group-hover:text-textColor'>Apply Now</button>
           </div>
         ))}
         
