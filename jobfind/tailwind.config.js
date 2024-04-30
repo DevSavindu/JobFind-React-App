@@ -8,10 +8,10 @@ export default {
   theme: {
     extend: {
       colors:{
-        'blueColor':'#2a68ff',
-        'greyIsh':'#f1f4f8',
+        'blueColor':'#135D66',
+        'greyIsh':'#E3FEF7',
         'cardShadow':'#f7f8f9',
-        'textColor':'#252b36',
+        'textColor':'#003C43',
       }
     },
   },

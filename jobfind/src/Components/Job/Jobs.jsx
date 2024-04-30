@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { BiTimeFive } from 'react-icons/bi';
 import logo1 from '../../assets/one-1-logo-png-transparent.png';
@@ -17,7 +18,7 @@ const Data = [
   },
   {
     id: 2,
-    image: logo2, // Replace logo2 with the actual import for the second image
+    image: logo2,
     title: 'Software Engineering',
     time: 'Soon',
     location: 'United States',
@@ -26,14 +27,61 @@ const Data = [
   },
   {
     id: 3,
-    image: logo3, // Replace logo3 with the actual import for the third image
+    image: logo3,
     title: 'Data Science',
     time: 'Later',
     location: 'United Kingdom',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias recusandae fugit saepe maxime itaque. Veritatis distinctio dolore maiores doloremque a doloribus quae, ipsa atque nulla iste, temporibus laborum sed quam!',
     company: 'DataTech Solutions'
+  },
+  {
+    id: 4,
+    image: logo2,
+    title: 'Mobile App Development',
+    time: 'Tomorrow',
+    location: 'Australia',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magnam officiis itaque rerum nobis, cumque dolorum eveniet dolor dolorem odit fugit fuga similique quibusdam, alias laudantium rem! Illum, distinctio excepturi.',
+    company: 'AppTech Innovations'
+  },
+  {
+    id: 5,
+    image: logo3,
+    title: 'UI/UX Design',
+    time: 'Next Week',
+    location: 'Germany',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto atque error repellendus, quia saepe consequatur ullam nobis aperiam dolores ipsam fuga, repudiandae maxime vitae tempora inventore tempore? Cumque, repellendus natus.',
+    company: 'DesignCraft Studios'
+  },
+  {
+    id: 6,
+    image: logo1,
+    title: 'Digital Marketing',
+    time: 'This Month',
+    location: 'France',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cupiditate iste, aspernatur repellendus, quia dolores vitae quae, rem doloribus dolorum unde! Laudantium, dolores enim voluptatum a nemo sequi explicabo alias.',
+    company: 'MarketPro Solutions'
+  },
+  {
+    id: 7,
+    image: logo2,
+    title: 'Cybersecurity',
+    time: 'Coming Soon',
+    location: 'Japan',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptas fuga labore architecto doloremque id aut, alias quod quisquam explicabo consequuntur. Nam illum aperiam accusantium nesciunt quisquam, mollitia quia nulla?',
+    company: 'SecureNet Systems'
+  },
+  {
+    id: 8,
+    image: logo3,
+    title: 'Graphic Design',
+    time: 'Next Month',
+    location: 'Brazil',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi autem doloribus, fuga exercitationem porro labore nihil adipisci iste obcaecati incidunt expedita placeat eos quibusdam velit asperiores, possimus quod repellat ducimus.',
+    company: 'Artistic Visionaries'
   }
 ];
+
+
 
 const Jobs = () => {
   return (
@@ -56,7 +104,7 @@ const Jobs = () => {
               <img src={image} alt="" className='w-[15%]' />
               <span className='text-[14px] py-[1rem] block group-hover:text-white'>{company}</span>
             </div>
-            <button className='border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white'>Apply Now</button>
+            <button className='border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-textColor'>Apply Now</button>
           </div>
         ))}
         
